@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Personalized AI News</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h2>Welcome, <span id="username">User</span>!</h2>
+        
+        <div class="profile-section">
+            <p><strong>Email:</strong> <span id="email">Loading...</span></p>
+            <p><strong>Country:</strong> <span id="country">Loading...</span></p>
+            <p><strong>Mobile:</strong> <span id="mobile">Loading...</span></p>
+            <p><strong>Gender:</strong> <span id="gender">Loading...</span></p>
+            <p><strong>Date of Birth:</strong> <span id="dob">Loading...</span></p>
+            <p><strong>Genres Selected:</strong> <span id="genres">Loading...</span></p>
+            <p><strong>Account Status:</strong> <span id="status">Loading...</span></p>
+            <p><strong>Verification:</strong> <span id="verification">Loading...</span></p>
+        </div>
+
+        <div class="news-options">
+            <button onclick="triggerScraper()">📢 Get Latest News</button>
+            <button onclick=" getNewsOverview()">📄 Get News Overview</button>
+            <button onclick="getSummary()">📝 Get News Summary</button>
+        </div>
+
+        <div id="news-container" class="news-content">
+            <h3>Get News on the go !!</h3>
+        </div>
+        <a href="index.html" id="DashButton">◀ Dashboard</a>
+
+    </div>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
