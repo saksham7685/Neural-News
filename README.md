@@ -33,7 +33,7 @@ Neural News is a cutting-edge news platform that leverages advanced AI and NLP t
 
     ```bash
     git clone [repository_url]
-    cd neural-news
+    cd neural-news/news_backend
     ```
 
 2.  **Set up Virtual Environment (Recommended):**
