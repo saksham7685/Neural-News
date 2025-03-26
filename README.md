@@ -74,9 +74,11 @@ Neural News is a cutting-edge news platform that leverages advanced AI and NLP t
     * Open `index.html` in your browser.
     * Ensure that the frontend is configured to point to your Django backend's API endpoints.
 
-9. **LLM Setup (Zephyr 7B Alpha):**
+9. **LLM and Embedding Models Setup (Zephyr 7B Alpha):**
     * Download the `zephyr-7b-alpha.Q4_K_M.gguf` model and place it in the correct directory.
     * Configure the path to the model in your Django project.
+    * Simalrly do for the embedding models too
+    * Install the compatible nlp and sentence transformer libraries
 
 ## Usage
 
