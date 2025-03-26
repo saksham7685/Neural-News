@@ -5,8 +5,8 @@ Neural News is a cutting-edge news platform that leverages advanced AI and NLP t
 ## Features
 
 -   **Personalized News Feed:** Tailored news based on user interests.
--   **AI-Powered Credibility Scoring:** Assesses news reliability using NLP. (`all-mpnet-base-v2`)
--   **Bias Detection:** Identifies potential biases in news reporting. (`all-mpnet-base-v2`)
+-   **AI-Powered Credibility Scoring:** Assesses news reliability using NLP. (`all-MiniLM-L6-v2`)
+-   **Bias Detection:** Identifies potential biases in news reporting. (`all-mpnet-base-v2`and `all-MiniLM-L6-v2`)
 -   **Real-Time News Scraping:** Fetches fresh news from trusted sources using Scrapy and Selenium.
 -   **Conversational News Summaries:** Provides context-aware summaries and answers using `zephyr-7b-alpha.Q4_K_M.gguf`. (RAG functionality)
 -   **Efficient Semantic Search:** Stores news embeddings in Pinecone for fast and accurate retrieval. (`all-MiniLM-L6-v2`)
@@ -16,7 +16,7 @@ Neural News is a cutting-edge news platform that leverages advanced AI and NLP t
 
 ## Technologies Used
 
--   **Backend:** Django (Python)
+-   **Backend and APIs:** Django Rest Framework (Python)
 -   **Database:** MySQL
 -   **Authentication:** JWT, Redis (OTP caching)
 -   **Web Scraping:** Scrapy, Selenium
@@ -24,6 +24,7 @@ Neural News is a cutting-edge news platform that leverages advanced AI and NLP t
     -   `all-MiniLM-L6-v2` (Embedding Storage)
     -   `all-mpnet-base-v2` (Bias Detection, Credibility Scoring)
     -   `zephyr-7b-alpha.Q4_K_M.gguf` (RAG, Summarization)
+    -   `TF-IDF and Extractive summary using summa`(For Raw Summary Generation)
 -   **Embedding Storage:** Pinecone
 -   **Frontend:** HTML, CSS, JavaScript
 
