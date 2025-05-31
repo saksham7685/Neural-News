@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1307928c-32dc-4387-9ea7-8a372f459b45)# Neural News - AI-Powered Personalized News Platform
+# Neural News - AI-Powered Personalized News Platform
 
 Neural News is a cutting-edge news platform that leverages advanced AI and NLP technologies to deliver personalized, reliable, and unbiased news to users. It integrates features like AI-driven credibility scoring, bias detection, and conversational news summaries using state-of-the-art LLMs.
 
